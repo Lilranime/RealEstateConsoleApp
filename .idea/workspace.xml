@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbcbd0ad-f3e6-452d-b8df-6fba21e438e9" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/utility/MessageUtil.java" afterDir="false" />
+    <list default="true" id="cbcbd0ad-f3e6-452d-b8df-6fba21e438e9" name="Changes" comment="Add buying and selling logic">
+      <change afterPath="$PROJECT_DIR$/src/utility/BuyTransactionUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelclasses/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelclasses/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelclasses/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelclasses/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelclasses/House.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelclasses/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelclasses/User.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utility/HouseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/HouseUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utility/OrderUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/OrderUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utility/UserUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/UserUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utility/MessageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/MessageUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utility/OrderUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utility/UserUtil.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +49,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Markdown"
+    ]
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664024363027</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add buying and selling logic">
+      <created>1664200565077</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664200565077</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Add buying and selling logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add buying and selling logic" />
   </component>
 </project>
